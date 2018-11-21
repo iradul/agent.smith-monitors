@@ -1,0 +1,17 @@
+{
+  "name": "@agent.smith/monitor-kafka-transformer",
+  "version": "1.0.0-alpha.1",
+  "description": "",
+  "main": "jsrc/index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@agent.smith/monitor-base": "^1.0.0-alpha",
+    "@agent.smith/monitor-rest": "^1.0.0-alpha",
+    "@agent.smith/utils": "^1.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.9"
+  }
+}

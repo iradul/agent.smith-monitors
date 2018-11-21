@@ -1,0 +1,16 @@
+{
+  "name": "@agent.smith/monitor-rest",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "main": "jsrc/index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@agent.smith/monitor-base": "^1.0.0-alpha",
+    "h2tp": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.9"
+  }
+}

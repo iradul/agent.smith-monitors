@@ -1,0 +1,24 @@
+{
+  "name": "@agent.smith/monitor-base",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "main": "jsrc/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "mocha": {
+    "kafka": {
+      "brokers": "localhost:9092",
+      "topic": "agent_smith_mocha_tests"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-rdkafka": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.9",
+    "mocha": "^5.2.0"
+  }
+}
